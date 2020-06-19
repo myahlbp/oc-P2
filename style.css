@@ -1,11 +1,22 @@
+
+body{
+    background-color: black;
+}
+
+
+
+
 .page{
-    width:780px;
+    width:900px;
     margin: auto;
     font-family: 'Source sans Pro', Calibri, Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     display:flex;
+    border:solid black 3px;
+    background-color: white;
 
 }
+
 #gauche{
     width:200px;
     background-color: maroon;
@@ -30,25 +41,34 @@ h3 {
     background-color:blanchedalmond;
     margin-left:-15px;
 }
+#lois{
+    position:relative;
+    top:115px;
+}
 p{
     text-align: justify;
 }
-
+.paragraphe{
+    position:relative;
+    right:7px;
+}
 ul{
     display:flex;
     justify-content: space-around;
-    margin-right: 30px;
+    right:26px;
+    list-style-type: none;
+    position:relative;
+    top:100px;
+    
 }
 
 li{ 
-    border:solid 1px black;
-    width:50px;
-    height:50px;
-    list-style-type: none;
-    font-size:30px;
-    margin-right:15px;
-    border-radius: 50px;
-
+    font-size:25px;
+    margin:12px;
+    padding-right:10px;
+    border:solid black 3px;
+    border-radius:50px;
+    
 }
 #droite{
     margin-right:20px;
@@ -63,16 +83,21 @@ h1{
     color:maroon;
  }
  .pa{
+     position:relative;
      font-size:25px;
+     bottom:30px;
+     text-decoration: underline maroon ;
  }
 
  article{
      display:flex;
  }
+ 
+
+ 
     
-article p{
-    margin-right: 60px;
-}
+
+
 h2{
     border-bottom: 3px solid maroon;
 
@@ -81,35 +106,77 @@ h2{
 section p{
     font-size:10px;
 }
+h4{
+    position:relative;
+    left:60px;
+    bottom:10px;
+    font-size:10px;
+}
 .para{
-    margin-left:-42px;
-    padding-top:17px;
-    }
-
+    position:relative;
+    left:33px;
+    top:7px;
+}
+.para1{
+    position: relative;
+    top:12px;
+    right:5px;
+}
+.formationmar{
+    position: relative;
+    top:10px;
+}
+.oc{
+    position: relative;
+    left:16px;
+    top:5px;
+}
+.stage{
+    position:relative;
+    left:5px;
+    bottom:15px;
+    
+}
+.experience{
+    position:relative;
+    bottom:10px;
+    
+}  
 .para2{
-    padding-top:17px;
-    margin-left:-85px;
-
-
+    position:relative;
+    right:29px;
+    top:7px;
+}
+.reception{
+    position:relative;
+    left:5px;
 }
 .para3{
-    padding-top:40px ;
-    margin-left:-85px;
+    position:relative;
+    top:20px;
+    right:82px;
+}
 
+.formar{
+    position:relative;
+    left:62px;
 }
-.para4{
-    padding-top:50px;
-}
-h4
-{
-    margin-top:10px;
+.date{
+    position:relative;
+    left:5px;
     font-size:10px;
-    justify-content:flex-end;
+    top:10px;
+}
+.date2{
+    left:5px;
+    position:relative;
+    font-size:10px;
+    top:10px;
+
 }
 
-    
-
-
-
-
+.para4{
+    position:relative;
+    left:400px;
+}
 
