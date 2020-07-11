@@ -68,15 +68,15 @@ h1{
 .sous-titre{
     margin-top: -30px;
     font-size: 25px;
-    
+    text-decoration: underline #b71c1c;
 }
 
-span{
+i{
     color: #b71c1c;
     margin-right: 3px;
     font-weight: bold;
 }
-h2{
+.section__title{
     border-bottom: solid 2px #b71c1c;
     margin-top: 70px;
     margin-right: 18px;
