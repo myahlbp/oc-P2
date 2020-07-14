@@ -6,9 +6,22 @@
     display: flex;
     background-color: #e0e0e0;
 }
+@media all and (max-width: 1024px){
+    .page{
+        width: auto;
+    }
+}
+
+
 body{
     background-color: #000000;
 }
+@media all and (max-width: 1024px){
+    body{
+        background-color: #e0e0e0;
+    }
+}
+
 #gauche{
     width: 200px;
     background-color: #b71c1c;
@@ -23,7 +36,7 @@ img{
 section{
     margin-left: 20px;
 }
-h3{
+#gauche h3{
     text-align: center;
     background-color: rgb(241, 232, 214);
     font-size: 20px;
@@ -35,22 +48,35 @@ h3{
     margin-right: 15px;
     color: #e0e0e0;
 }
+#lois{
+    margin-top: 400px;
+}
 ul{
-    display: flex;
     list-style-type: none;
-    justify-content: center;
-    margin-right: 65px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-right: 54px;
 }
 li{
-    border: 2px solid black;
+    margin: 10px;
+    border: solid black 2px;
     border-radius: 50%;
-    font-size: 30px;
-    margin-left: 15px;
 }
 
-#lois{
-    margin-top: 360px;
+p i{
+    color: #b71c1c;
+    margin-right: 5px;
 }
+h3 i{
+    color: #b71c1c;
+}
+    
+
+    
+    
+}
+
 #droite{
     width: 700px;
 }
@@ -58,73 +84,133 @@ header{
     margin-left: 30px;
     margin-top: 30px;
 }
+@media all and (max-width: 1024px){
+    header{
+        font-size: 10px;
+    }
+}
+    
+header h1{
+    margin-bottom: -25px;
+}
 h1{
     color: #000000;
     font-size: 40px;
     margin-left: 20px;
     padding-top: 40px;
+    font-weight: normal;
 }
-
-.sous-titre{
-    margin-top: -30px;
-    font-size: 25px;
-    text-decoration: underline #b71c1c;
+@media all and (max-width: 1024px){
+    h1{
+        font-size: 25px;
+        margin-left: -25px;
+    }
 }
-
-i{
+h1 span{
     color: #b71c1c;
-    margin-right: 3px;
-    font-weight: bold;
 }
+h2{
+    color: black;
+    font-weight: normal;
+    margin-left: 10px;
+}
+@media all and (max-width: 1024px){
+    h2{
+        margin-left: -20px;
+        margin-top: 20px;
+    }
+}        
+        
+
+h2 span{
+    border-bottom:#b71c1c solid 2px;
+}
+
+
 .section__title{
-    border-bottom: solid 2px #b71c1c;
     margin-top: 70px;
-    margin-right: 18px;
+    background-color: #e0e0e0;
+    border-bottom: 2px solid #b71c1c;
+    margin-right: -55px;
+}
+#droite p{
+    text-align: justify;
 }
 
 section p{
     font-size: 10px;
 }
 
+
 article{
     display: flex;
-    
-
 }
+@media all and (max-width: 1024px){
+    article{
+        flex-direction: column;
+    }
+}
+
+    
 .paragraphe{
     position: relative;
-    left: 100px;
+    left: 110px;
     bottom: 10px;
-    
 }
+@media all and (max-width: 1024px){
+    .paragraphe{
+        margin-left: -110px;
+    }
+}   
+
 .oc{
-    margin-left: 120px;
+    margin-left: 130px;
+}
+@media all and (max-width: 1024px){
+    .oc{
+        margin-left: 3px;
+    }
 }
 h4{
     font-weight: normal;
     font-size: 15px;
 }
-.formar{
-    margin-left: 98px;
+@media all and (max-width: 1024px){
+    h4{
+        font-size: 10px;
+    }
 }
+
+
+.formar{
+    margin-left: 108px;
+}
+@media all and (max-width: 1024px){
+    .formar{
+        margin-left: 5px;
+    }
+}
+
 .stage{
     margin-left: 110px;
     margin-top: -15px;
-    
-    
 }
+@media all and (max-width: 1024px){
+    .stage{
+        margin-left: 5px;
+    }
+}
+
 .contact{
     margin-left: 400px;
 }
-
-
-
+@media all and (max-width: 1024px){
+    .contact{
+        margin-left: 2px;
+    }
+}
+ 
+    
 
     
     
-
-    
-    
-
-
-
