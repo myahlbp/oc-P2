@@ -36,7 +36,7 @@ section{
     margin-left: -20px;
 }
 #gauche p{
-    font-size: 10px;
+    font-size: 12px;
     text-align: justify;
     margin-right: 19px;
     color: #e0e0e0;
@@ -76,7 +76,7 @@ header{
     margin-top: 30px;
 }
 
-    
+
 header h1{
     margin-bottom: -25px;
 }
@@ -100,8 +100,8 @@ h2{
     font-weight: normal;
     margin-left: 1px;
 }
-  
-        
+
+
 
 h2 span{
     border-bottom:#b71c1c solid 2px;
@@ -117,18 +117,18 @@ h2 span{
 }
 #droite p{
     text-align: justify;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 section p{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: normal;
 }
 
 
 article{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     margin-right: 20px; 
 }
 
@@ -152,92 +152,87 @@ h4{
 
 
 
-  @media screen and (max-width: 600px){
-      .page{
-          width: auto;
-          flex-direction: column;
-      }
-      #gauche{
-          width: 600px;
-      }
-      figure{
-          margin-left: 165px;
-      }
-      #gauche h3{
-          margin-right: 150px;
-          
-      }
-      #gauche p{
-          font-size: 13px;
-          margin-left: 0px;
-      }
-      ul{
-        justify-content: left;
-        margin-left: 100px;
-      }
-      
-      #droite{
-          width: 600px;
-      }
-      article{
-    grid-template-columns: 1fr;
-      }
-      h4{
-          margin-top: 0px; 
-          font-size: 15px;
-      }
-      .contact{
-          margin-left: 0px;
-      }
-      #droite p{
-          font-size: 13px;
-      }
-      .para{
-          margin-bottom: 0px;
-      }
-      
-      
-  }
 
 
 
 
-
-  @media screen and (max-width: 1000px){
+@media screen and (max-width: 600px){
     .page{
         width: auto;
+        flex-direction: column;
     }
     
-    #droite article{
+    article{
         grid-template-columns: 1fr;
-    }
-    .paragraphe{
-        margin-top: 0px;
 
+    }
+    #gauche{
+        width: auto;
+    }
+    #gauche p{
+        font-size: 17px;
+    }
+    #lois{
+        margin-top: 5px;
+
+    }
+    figure{
+        text-align: center;
+    }
+    ul{
+        font-size: 30px;
+    }
+    #droite{
+        width: auto;
+    }
+    #droite p{
+        font-size: 17px;
+    }
+    h4{
+        margin: 0px;
     }
     .contact{
         margin-left: 0px;
     }
-    section h3{
-        margin-top: 55px;
+}
+
+@media screen and (max-width: 1000px){
+    .page{
+        width: auto;
+    }
+    article{
+        grid-template-columns: 1fr;
+        
         
     }
-    #droite h3{
-        margin-bottom: 5px;
+    #droite p{
+        font-size: 16px;
+    }
+    #gauche p{
+        font-size: 16px;
+    }
+    .contact{
+        margin-left: 0px;
+    }
+    h4{
+        margin-top: 0px;
     }
     
-    }
-    #lois{
-        margin-top: 600px;
-    }
-
-    }
-        
-
     
-
     
+   
+}
 
 
-  }
+
+
+
+
+
+
+
+
+
+
+
 
